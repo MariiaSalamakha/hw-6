@@ -129,8 +129,7 @@ h1 {
   border-radius: 50px;
   margin-top: 150px;
   margin-bottom: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 25px;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -329,8 +328,8 @@ h2 {
   background: #9c69e2;
   border-radius: 50px;
   margin-bottom: 150px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 25px;
+
 }
 
 .fifth-block h3:first-child {
@@ -350,7 +349,7 @@ h2 {
   border-radius: 20px;
   background-color: #ffffff;
   position: absolute;
-  left: 285px;
+  left: 210px;
   top: 2900px;
   display: flex;
   justify-content: space-around;
@@ -533,7 +532,7 @@ h2 {
 .footer {
   display: grid;
   grid-template-columns: 360px 166px 166px 166px;
-  grid-gap: 130px;
+  grid-gap: 90px;
 }
 
 .about-footer ul {
