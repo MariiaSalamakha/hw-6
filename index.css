@@ -36,6 +36,10 @@
   align-items: center;
   justify-content: center;
 }
+.btn-demo:hover {
+  background-color: #f063b8;
+  color: white;
+}
 
 .arrow-right {
   width: 20px;
@@ -112,7 +116,11 @@ h1 {
   border-radius: 50px;
   margin-top: 50px;
 }
-
+.btn-learn-more:hover {
+  background-color: transparent;
+  color: #9c69e2;
+  border: 1px solid #9c69e2;
+}
 .main-img {
   width: 55%;
   height: auto;
@@ -123,8 +131,7 @@ h1 {
 }
 
 .second-block {
-  width: 1117px;
-  height: 560px;
+  min-width: 1117px;
   background: rgba(240, 99, 184, 0.15);
   border-radius: 50px;
   margin-top: 150px;
@@ -250,6 +257,10 @@ h2 {
   margin-bottom: 0px;
 }
 
+.btn-more:hover {
+  color: #43bca9;
+}
+
 .access-poster {
   width: 241px;
   height: 185px;
@@ -329,7 +340,6 @@ h2 {
   border-radius: 50px;
   margin-bottom: 150px;
   margin-left: 25px;
-
 }
 
 .fifth-block h3:first-child {
@@ -459,6 +469,11 @@ h2 {
   margin-left: 30px;
 }
 
+.btn-demo-end:hover {
+  background-color: #212353;
+  color: rgba(255, 255, 255, 1);
+}
+
 .btn-learn-more-end {
   width: 170px;
   height: 60px;
@@ -472,6 +487,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.btn-learn-more-end:hover {
+  background-color: transparent;
+  color: #9c69e2;
+  border: 1px solid#9c69e2;
 }
 
 .btn-end {
@@ -614,4 +635,11 @@ h2 {
   display: flex;
   justify-content: space-between;
   margin: 95px 0px 95px 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a {
+  color: inherit;
 }
